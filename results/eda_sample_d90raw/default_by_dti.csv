@@ -1,0 +1,22 @@
+dti_band,loans,era,default_24m_pct
+<=20,21820,2005-08 vintages,1.586
+20-30,43978,2005-08 vintages,2.324
+30-36,34028,2005-08 vintages,3.33
+36-43,38994,2005-08 vintages,4.816
+43-50,31495,2005-08 vintages,5.839
+>50,24933,2005-08 vintages,6.81
+missing,4751,2005-08 vintages,4.189
+<=20,144383,all vintages,0.631
+20-30,296576,all vintages,1.013
+30-36,220862,all vintages,1.539
+36-43,271457,all vintages,2.18
+43-50,207453,all vintages,2.843
+>50,45722,all vintages,4.514
+missing,95504,all vintages,1.913
+<=20,122563,other vintages,0.461
+20-30,252598,other vintages,0.785
+30-36,186834,other vintages,1.213
+36-43,232463,other vintages,1.738
+43-50,175958,other vintages,2.307
+>50,20789,other vintages,1.761
+missing,90753,other vintages,1.794

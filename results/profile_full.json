@@ -1,0 +1,57 @@
+{
+ "dataset": "full",
+ "loans": 7140622,
+ "loan_month_rows": 473001445,
+ "vintages": [
+  2006,
+  2012,
+  2020
+ ],
+ "states": 55,
+ "parquet_bytes_orig": 116363339,
+ "parquet_bytes_perf": 4431400701,
+ "duplicate_loan_ids": 0,
+ "duplicate_loan_month_keys": 0,
+ "period_min": "2005-12-01",
+ "period_max": "2026-06-01",
+ "missing_rate_orig": {
+  "fico": 0.00022,
+  "ltv": 2e-05,
+  "cltv": 2e-05,
+  "dti": 0.10179,
+  "orig_rate": 0.0,
+  "state": 0.0,
+  "mi_pct": 1e-05,
+  "occupancy": 0.0,
+  "purpose": 0.0
+ },
+ "ranges_orig": {
+  "fico_min": 300.0,
+  "fico_max": 850.0,
+  "ltv_min": 1.0,
+  "ltv_max": 980.0,
+  "dti_min": 1.0,
+  "dti_max": 65.0,
+  "rate_min": 1.5,
+  "rate_max": 10.97
+ },
+ "dlq_status_values": {
+  "00": 463092965,
+  "01": 3965809,
+  "02": 1185552,
+  "03": 603871,
+  "RA": 491224,
+  "04": 439815,
+  "05": 371184,
+  "06": 309149,
+  "07": 263098,
+  "08": 230650,
+  "09": 202297,
+  "10": 178925
+ },
+ "loans_by_vintage": {
+  "2006": 1193544,
+  "2012": 2033338,
+  "2020": 3913740
+ }
+}

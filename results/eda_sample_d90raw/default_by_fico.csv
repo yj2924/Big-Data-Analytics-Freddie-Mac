@@ -1,0 +1,22 @@
+fico_band,loans,era,default_24m_pct
+<620,7031,2005-08 vintages,15.19
+620-659,18975,2005-08 vintages,10.43
+660-699,34265,2005-08 vintages,6.581
+700-739,42401,2005-08 vintages,3.771
+740-779,51979,2005-08 vintages,1.73
+780+,45188,2005-08 vintages,0.679
+missing,160,2005-08 vintages,5.0
+<620,24011,all vintages,9.167
+620-659,76514,all vintages,6.17
+660-699,171414,all vintages,3.454
+700-739,268929,all vintages,1.95
+740-779,378913,all vintages,0.905
+780+,360092,all vintages,0.405
+missing,2084,all vintages,2.303
+<620,16980,other vintages,6.673
+620-659,57539,other vintages,4.765
+660-699,137149,other vintages,2.672
+700-739,226528,other vintages,1.609
+740-779,326934,other vintages,0.774
+780+,314904,other vintages,0.366
+missing,1924,other vintages,2.079

@@ -1,0 +1,22 @@
+ltv_band,loans,era,default_24m_pct
+<=60,50954,2005-08 vintages,1.545
+60-70,29991,2005-08 vintages,3.788
+70-80,87382,2005-08 vintages,3.972
+80-90,17552,2005-08 vintages,7.857
+90-95,10448,2005-08 vintages,8.49
+>95,3659,2005-08 vintages,12.435
+missing,13,2005-08 vintages,0.0
+<=60,317925,all vintages,0.818
+60-70,182614,all vintages,1.493
+70-80,487704,all vintages,1.68
+80-90,127929,all vintages,2.805
+90-95,121476,all vintages,3.188
+>95,44266,all vintages,4.606
+missing,43,all vintages,0.0
+<=60,266971,other vintages,0.679
+60-70,152623,other vintages,1.042
+70-80,400322,other vintages,1.18
+80-90,110377,other vintages,2.001
+90-95,111028,other vintages,2.689
+>95,40607,other vintages,3.901
+missing,30,other vintages,0.0

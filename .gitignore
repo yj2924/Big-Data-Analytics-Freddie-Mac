@@ -1,0 +1,12 @@
+# raw and processed data are NOT committed (Freddie Mac terms of use + size); see README "Data"
+data/
+*.zip
+*.txt.gz
+*.parquet
+spark-warehouse/
+metastore_db/
+derby.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

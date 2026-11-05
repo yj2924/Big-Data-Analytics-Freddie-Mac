@@ -1,0 +1,45 @@
+{
+ "tag": "sample",
+ "train_last_vintage": 2014,
+ "test_start": "2016-01-01",
+ "hazard_train_rows_after_downsampling": 1845112,
+ "hazard_train_events": 39097,
+ "hazard_M0": {
+  "features": [
+   "fico_c",
+   "fico_missing",
+   "ltv_c",
+   "ltv_missing",
+   "cltv_gap",
+   "dti_c",
+   "dti_missing",
+   "rate_spread",
+   "log_upb",
+   "has_mi",
+   "multi_unit",
+   "single_borrower",
+   "short_term",
+   "arm",
+   "age_7_12",
+   "age_13_24",
+   "age_25_36",
+   "age_37_60",
+   "age_61_120",
+   "age_121_plus"
+  ],
+  "test_rows": 37453704,
+  "test_events": 16060,
+  "test_auc": 0.7521045627188447,
+  "test_ks": 0.3777801473753107,
+  "expected_over_actual_defaults": 2.305413020609332
+ },
+ "loan_level": {
+  "train_loans": 800000,
+  "test_loans": 481880,
+  "test_default_rate": 0.009170332862953432,
+  "train_auc": 0.8512448025852646,
+  "test_auc": 0.7898932112455469,
+  "test_ks": 0.4432535971006579,
+  "test_mean_pred": 0.016238391376351857
+ }
+}
