@@ -109,5 +109,9 @@ results/       CSV / PNG / JSON outputs (small files only)
 docs/          data card, slides 2-3 content
 ```
 
-Note: `results/models_sample/coefficients_hazard_M0.csv` lists the numeric and loan-age coefficients only;
-re-running step 5 regenerates the full table including the state / purpose / occupancy dummies.
+Notes on `results/models_sample/`
+1. `coefficients_hazard_M0.csv` was refit with the corrected coef_table (same design table, same train split,
+   seed 7, 5% negative sampling with weight 20; same 1,845,112 training rows and 39,097 events as the main run),
+   so the state / purpose / occupancy / channel dummies carry the right labels.
+2. The `loan_level` block of `metrics.json` was written from the console output of the same run (the job was
+   restarted with `--skip-loan-level` for the hazard part); the numbers are that run's output.
